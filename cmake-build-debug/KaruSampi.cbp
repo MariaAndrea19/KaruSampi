@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/cReport.cpp">
+			<Option target="KaruSampi"/>
+		</Unit>
+		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/cReport.h">
+			<Option target="KaruSampi"/>
+		</Unit>
 		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/main.cpp">
 			<Option target="KaruSampi"/>
 		</Unit>
@@ -89,6 +95,12 @@
 			<Option target="KaruSampi"/>
 		</Unit>
 		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/resources/cDisease.h">
+			<Option target="KaruSampi"/>
+		</Unit>
+		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/resources/cDoctor.cpp">
+			<Option target="KaruSampi"/>
+		</Unit>
+		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/resources/cDoctor.h">
 			<Option target="KaruSampi"/>
 		</Unit>
 		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/resources/cPatient.cpp">

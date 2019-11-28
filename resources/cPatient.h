@@ -22,7 +22,6 @@ private:
 public:
     cPatient(text_t &n, gender_t &g, age_t &a, kilogram_t &m, meter_t &h, mmhg_t &sP, mmhg_t &dP, bpm_t &hR):
     name(n), age(a), gender(g), mass(m), height(m), systolicPressure(sP), diastolicPressure(dP), heartRate(hR), imc(m / h * h){}
-
 };
 
 

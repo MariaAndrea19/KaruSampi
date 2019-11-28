@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/KaruSampi.dir/cReport.cpp.obj"
   "CMakeFiles/KaruSampi.dir/main.cpp.obj"
   "CMakeFiles/KaruSampi.dir/resources/cDisease.cpp.obj"
+  "CMakeFiles/KaruSampi.dir/resources/cDoctor.cpp.obj"
   "CMakeFiles/KaruSampi.dir/resources/cPatient.cpp.obj"
   "CMakeFiles/KaruSampi.dir/resources/cSymptom.cpp.obj"
   "KaruSampi.exe"

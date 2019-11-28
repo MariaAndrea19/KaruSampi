@@ -124,6 +124,33 @@ KaruSampi\fast:
 	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\build
 .PHONY : KaruSampi\fast
 
+cReport.obj: cReport.cpp.obj
+
+.PHONY : cReport.obj
+
+# target to build an object file
+cReport.cpp.obj:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\cReport.cpp.obj
+.PHONY : cReport.cpp.obj
+
+cReport.i: cReport.cpp.i
+
+.PHONY : cReport.i
+
+# target to preprocess a source file
+cReport.cpp.i:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\cReport.cpp.i
+.PHONY : cReport.cpp.i
+
+cReport.s: cReport.cpp.s
+
+.PHONY : cReport.s
+
+# target to generate assembly for a file
+cReport.cpp.s:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\cReport.cpp.s
+.PHONY : cReport.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -177,6 +204,33 @@ resources\cDisease.s: resources\cDisease.cpp.s
 resources\cDisease.cpp.s:
 	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\resources\cDisease.cpp.s
 .PHONY : resources\cDisease.cpp.s
+
+resources\cDoctor.obj: resources\cDoctor.cpp.obj
+
+.PHONY : resources\cDoctor.obj
+
+# target to build an object file
+resources\cDoctor.cpp.obj:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\resources\cDoctor.cpp.obj
+.PHONY : resources\cDoctor.cpp.obj
+
+resources\cDoctor.i: resources\cDoctor.cpp.i
+
+.PHONY : resources\cDoctor.i
+
+# target to preprocess a source file
+resources\cDoctor.cpp.i:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\resources\cDoctor.cpp.i
+.PHONY : resources\cDoctor.cpp.i
+
+resources\cDoctor.s: resources\cDoctor.cpp.s
+
+.PHONY : resources\cDoctor.s
+
+# target to generate assembly for a file
+resources\cDoctor.cpp.s:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\resources\cDoctor.cpp.s
+.PHONY : resources\cDoctor.cpp.s
 
 resources\cPatient.obj: resources\cPatient.cpp.obj
 
@@ -241,12 +295,18 @@ help:
 	@echo ... edit_cache
 	@echo ... KaruSampi
 	@echo ... rebuild_cache
+	@echo ... cReport.obj
+	@echo ... cReport.i
+	@echo ... cReport.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... resources/cDisease.obj
 	@echo ... resources/cDisease.i
 	@echo ... resources/cDisease.s
+	@echo ... resources/cDoctor.obj
+	@echo ... resources/cDoctor.i
+	@echo ... resources/cDoctor.s
 	@echo ... resources/cPatient.obj
 	@echo ... resources/cPatient.i
 	@echo ... resources/cPatient.s
