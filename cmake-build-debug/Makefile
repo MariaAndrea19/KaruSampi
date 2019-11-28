@@ -124,6 +124,33 @@ KaruSampi\fast:
 	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\build
 .PHONY : KaruSampi\fast
 
+diagnosticAlgoritm.obj: diagnosticAlgoritm.cpp.obj
+
+.PHONY : diagnosticAlgoritm.obj
+
+# target to build an object file
+diagnosticAlgoritm.cpp.obj:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\diagnosticAlgoritm.cpp.obj
+.PHONY : diagnosticAlgoritm.cpp.obj
+
+diagnosticAlgoritm.i: diagnosticAlgoritm.cpp.i
+
+.PHONY : diagnosticAlgoritm.i
+
+# target to preprocess a source file
+diagnosticAlgoritm.cpp.i:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\diagnosticAlgoritm.cpp.i
+.PHONY : diagnosticAlgoritm.cpp.i
+
+diagnosticAlgoritm.s: diagnosticAlgoritm.cpp.s
+
+.PHONY : diagnosticAlgoritm.s
+
+# target to generate assembly for a file
+diagnosticAlgoritm.cpp.s:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\diagnosticAlgoritm.cpp.s
+.PHONY : diagnosticAlgoritm.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -322,6 +349,9 @@ help:
 	@echo ... edit_cache
 	@echo ... KaruSampi
 	@echo ... rebuild_cache
+	@echo ... diagnosticAlgoritm.obj
+	@echo ... diagnosticAlgoritm.i
+	@echo ... diagnosticAlgoritm.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

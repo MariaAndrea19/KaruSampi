@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/eduar/Desktop/KaruSampi/diagnosticAlgoritm.cpp" "C:/Users/eduar/Desktop/KaruSampi/cmake-build-debug/CMakeFiles/KaruSampi.dir/diagnosticAlgoritm.cpp.obj"
   "C:/Users/eduar/Desktop/KaruSampi/main.cpp" "C:/Users/eduar/Desktop/KaruSampi/cmake-build-debug/CMakeFiles/KaruSampi.dir/main.cpp.obj"
   "C:/Users/eduar/Desktop/KaruSampi/resources/cDisease.cpp" "C:/Users/eduar/Desktop/KaruSampi/cmake-build-debug/CMakeFiles/KaruSampi.dir/resources/cDisease.cpp.obj"
   "C:/Users/eduar/Desktop/KaruSampi/resources/cDoctor.cpp" "C:/Users/eduar/Desktop/KaruSampi/cmake-build-debug/CMakeFiles/KaruSampi.dir/resources/cDoctor.cpp.obj"

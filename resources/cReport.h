@@ -5,7 +5,6 @@
 #ifndef KARUSAMPI_CREPORT_H
 #define KARUSAMPI_CREPORT_H
 
-
 #include "cPatient.h"
 #include "cDoctor.h"
 #include "cMedicine.h"

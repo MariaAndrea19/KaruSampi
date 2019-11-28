@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/diagnosticAlgoritm.cpp">
+			<Option target="KaruSampi"/>
+		</Unit>
+		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/diagnosticAlgoritm.h">
+			<Option target="KaruSampi"/>
+		</Unit>
 		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/main.cpp">
 			<Option target="KaruSampi"/>
 		</Unit>
