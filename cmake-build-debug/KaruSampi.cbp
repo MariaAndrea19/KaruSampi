@@ -82,13 +82,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/cmake-build-debug/cSymptom.cpp">
-			<Option target="KaruSampi"/>
-		</Unit>
-		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/cmake-build-debug/cSymptom.h">
-			<Option target="KaruSampi"/>
-		</Unit>
 		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/main.cpp">
+			<Option target="KaruSampi"/>
+		</Unit>
+		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/resources/cDisease.cpp">
+			<Option target="KaruSampi"/>
+		</Unit>
+		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/resources/cDisease.h">
+			<Option target="KaruSampi"/>
+		</Unit>
+		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/resources/cPatient.cpp">
+			<Option target="KaruSampi"/>
+		</Unit>
+		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/resources/cPatient.h">
+			<Option target="KaruSampi"/>
+		</Unit>
+		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/resources/cSymptom.cpp">
+			<Option target="KaruSampi"/>
+		</Unit>
+		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/resources/cSymptom.h">
 			<Option target="KaruSampi"/>
 		</Unit>
 		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/types.h">

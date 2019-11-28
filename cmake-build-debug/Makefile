@@ -124,33 +124,6 @@ KaruSampi\fast:
 	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\build
 .PHONY : KaruSampi\fast
 
-cSymptom.obj: cSymptom.cpp.obj
-
-.PHONY : cSymptom.obj
-
-# target to build an object file
-cSymptom.cpp.obj:
-	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\cSymptom.cpp.obj
-.PHONY : cSymptom.cpp.obj
-
-cSymptom.i: cSymptom.cpp.i
-
-.PHONY : cSymptom.i
-
-# target to preprocess a source file
-cSymptom.cpp.i:
-	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\cSymptom.cpp.i
-.PHONY : cSymptom.cpp.i
-
-cSymptom.s: cSymptom.cpp.s
-
-.PHONY : cSymptom.s
-
-# target to generate assembly for a file
-cSymptom.cpp.s:
-	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\cSymptom.cpp.s
-.PHONY : cSymptom.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +151,87 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\main.cpp.s
 .PHONY : main.cpp.s
 
+resources\cDisease.obj: resources\cDisease.cpp.obj
+
+.PHONY : resources\cDisease.obj
+
+# target to build an object file
+resources\cDisease.cpp.obj:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\resources\cDisease.cpp.obj
+.PHONY : resources\cDisease.cpp.obj
+
+resources\cDisease.i: resources\cDisease.cpp.i
+
+.PHONY : resources\cDisease.i
+
+# target to preprocess a source file
+resources\cDisease.cpp.i:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\resources\cDisease.cpp.i
+.PHONY : resources\cDisease.cpp.i
+
+resources\cDisease.s: resources\cDisease.cpp.s
+
+.PHONY : resources\cDisease.s
+
+# target to generate assembly for a file
+resources\cDisease.cpp.s:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\resources\cDisease.cpp.s
+.PHONY : resources\cDisease.cpp.s
+
+resources\cPatient.obj: resources\cPatient.cpp.obj
+
+.PHONY : resources\cPatient.obj
+
+# target to build an object file
+resources\cPatient.cpp.obj:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\resources\cPatient.cpp.obj
+.PHONY : resources\cPatient.cpp.obj
+
+resources\cPatient.i: resources\cPatient.cpp.i
+
+.PHONY : resources\cPatient.i
+
+# target to preprocess a source file
+resources\cPatient.cpp.i:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\resources\cPatient.cpp.i
+.PHONY : resources\cPatient.cpp.i
+
+resources\cPatient.s: resources\cPatient.cpp.s
+
+.PHONY : resources\cPatient.s
+
+# target to generate assembly for a file
+resources\cPatient.cpp.s:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\resources\cPatient.cpp.s
+.PHONY : resources\cPatient.cpp.s
+
+resources\cSymptom.obj: resources\cSymptom.cpp.obj
+
+.PHONY : resources\cSymptom.obj
+
+# target to build an object file
+resources\cSymptom.cpp.obj:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\resources\cSymptom.cpp.obj
+.PHONY : resources\cSymptom.cpp.obj
+
+resources\cSymptom.i: resources\cSymptom.cpp.i
+
+.PHONY : resources\cSymptom.i
+
+# target to preprocess a source file
+resources\cSymptom.cpp.i:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\resources\cSymptom.cpp.i
+.PHONY : resources\cSymptom.cpp.i
+
+resources\cSymptom.s: resources\cSymptom.cpp.s
+
+.PHONY : resources\cSymptom.s
+
+# target to generate assembly for a file
+resources\cSymptom.cpp.s:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\resources\cSymptom.cpp.s
+.PHONY : resources\cSymptom.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -187,12 +241,18 @@ help:
 	@echo ... edit_cache
 	@echo ... KaruSampi
 	@echo ... rebuild_cache
-	@echo ... cSymptom.obj
-	@echo ... cSymptom.i
-	@echo ... cSymptom.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... resources/cDisease.obj
+	@echo ... resources/cDisease.i
+	@echo ... resources/cDisease.s
+	@echo ... resources/cPatient.obj
+	@echo ... resources/cPatient.i
+	@echo ... resources/cPatient.s
+	@echo ... resources/cSymptom.obj
+	@echo ... resources/cSymptom.i
+	@echo ... resources/cSymptom.s
 .PHONY : help
 
 
