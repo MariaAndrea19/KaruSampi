@@ -3,3 +3,11 @@
 //
 
 #include "cReport.h"
+
+void cReport::findDoctor() {
+
+}
+
+void cReport::findMedicine() {
+
+}

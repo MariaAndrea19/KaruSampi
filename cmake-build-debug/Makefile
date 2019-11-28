@@ -124,33 +124,6 @@ KaruSampi\fast:
 	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\build
 .PHONY : KaruSampi\fast
 
-cReport.obj: cReport.cpp.obj
-
-.PHONY : cReport.obj
-
-# target to build an object file
-cReport.cpp.obj:
-	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\cReport.cpp.obj
-.PHONY : cReport.cpp.obj
-
-cReport.i: cReport.cpp.i
-
-.PHONY : cReport.i
-
-# target to preprocess a source file
-cReport.cpp.i:
-	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\cReport.cpp.i
-.PHONY : cReport.cpp.i
-
-cReport.s: cReport.cpp.s
-
-.PHONY : cReport.s
-
-# target to generate assembly for a file
-cReport.cpp.s:
-	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\cReport.cpp.s
-.PHONY : cReport.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -232,6 +205,33 @@ resources\cDoctor.cpp.s:
 	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\resources\cDoctor.cpp.s
 .PHONY : resources\cDoctor.cpp.s
 
+resources\cMedicine.obj: resources\cMedicine.cpp.obj
+
+.PHONY : resources\cMedicine.obj
+
+# target to build an object file
+resources\cMedicine.cpp.obj:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\resources\cMedicine.cpp.obj
+.PHONY : resources\cMedicine.cpp.obj
+
+resources\cMedicine.i: resources\cMedicine.cpp.i
+
+.PHONY : resources\cMedicine.i
+
+# target to preprocess a source file
+resources\cMedicine.cpp.i:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\resources\cMedicine.cpp.i
+.PHONY : resources\cMedicine.cpp.i
+
+resources\cMedicine.s: resources\cMedicine.cpp.s
+
+.PHONY : resources\cMedicine.s
+
+# target to generate assembly for a file
+resources\cMedicine.cpp.s:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\resources\cMedicine.cpp.s
+.PHONY : resources\cMedicine.cpp.s
+
 resources\cPatient.obj: resources\cPatient.cpp.obj
 
 .PHONY : resources\cPatient.obj
@@ -258,6 +258,33 @@ resources\cPatient.s: resources\cPatient.cpp.s
 resources\cPatient.cpp.s:
 	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\resources\cPatient.cpp.s
 .PHONY : resources\cPatient.cpp.s
+
+resources\cReport.obj: resources\cReport.cpp.obj
+
+.PHONY : resources\cReport.obj
+
+# target to build an object file
+resources\cReport.cpp.obj:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\resources\cReport.cpp.obj
+.PHONY : resources\cReport.cpp.obj
+
+resources\cReport.i: resources\cReport.cpp.i
+
+.PHONY : resources\cReport.i
+
+# target to preprocess a source file
+resources\cReport.cpp.i:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\resources\cReport.cpp.i
+.PHONY : resources\cReport.cpp.i
+
+resources\cReport.s: resources\cReport.cpp.s
+
+.PHONY : resources\cReport.s
+
+# target to generate assembly for a file
+resources\cReport.cpp.s:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\resources\cReport.cpp.s
+.PHONY : resources\cReport.cpp.s
 
 resources\cSymptom.obj: resources\cSymptom.cpp.obj
 
@@ -295,9 +322,6 @@ help:
 	@echo ... edit_cache
 	@echo ... KaruSampi
 	@echo ... rebuild_cache
-	@echo ... cReport.obj
-	@echo ... cReport.i
-	@echo ... cReport.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
@@ -307,9 +331,15 @@ help:
 	@echo ... resources/cDoctor.obj
 	@echo ... resources/cDoctor.i
 	@echo ... resources/cDoctor.s
+	@echo ... resources/cMedicine.obj
+	@echo ... resources/cMedicine.i
+	@echo ... resources/cMedicine.s
 	@echo ... resources/cPatient.obj
 	@echo ... resources/cPatient.i
 	@echo ... resources/cPatient.s
+	@echo ... resources/cReport.obj
+	@echo ... resources/cReport.i
+	@echo ... resources/cReport.s
 	@echo ... resources/cSymptom.obj
 	@echo ... resources/cSymptom.i
 	@echo ... resources/cSymptom.s

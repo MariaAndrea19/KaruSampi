@@ -82,12 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/cReport.cpp">
-			<Option target="KaruSampi"/>
-		</Unit>
-		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/cReport.h">
-			<Option target="KaruSampi"/>
-		</Unit>
 		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/main.cpp">
 			<Option target="KaruSampi"/>
 		</Unit>
@@ -103,10 +97,22 @@
 		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/resources/cDoctor.h">
 			<Option target="KaruSampi"/>
 		</Unit>
+		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/resources/cMedicine.cpp">
+			<Option target="KaruSampi"/>
+		</Unit>
+		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/resources/cMedicine.h">
+			<Option target="KaruSampi"/>
+		</Unit>
 		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/resources/cPatient.cpp">
 			<Option target="KaruSampi"/>
 		</Unit>
 		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/resources/cPatient.h">
+			<Option target="KaruSampi"/>
+		</Unit>
+		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/resources/cReport.cpp">
+			<Option target="KaruSampi"/>
+		</Unit>
+		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/resources/cReport.h">
 			<Option target="KaruSampi"/>
 		</Unit>
 		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/resources/cSymptom.cpp">

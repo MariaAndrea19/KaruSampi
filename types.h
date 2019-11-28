@@ -23,4 +23,6 @@ using mmhg_t = double;
 using bpm_t = double;
 using imc_t = double;
 
+using dose_t = double;
+
 #endif //KARUSAMPI_TYPES_H

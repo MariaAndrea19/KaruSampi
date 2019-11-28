@@ -4,11 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/eduar/Desktop/KaruSampi/cReport.cpp" "C:/Users/eduar/Desktop/KaruSampi/cmake-build-debug/CMakeFiles/KaruSampi.dir/cReport.cpp.obj"
   "C:/Users/eduar/Desktop/KaruSampi/main.cpp" "C:/Users/eduar/Desktop/KaruSampi/cmake-build-debug/CMakeFiles/KaruSampi.dir/main.cpp.obj"
   "C:/Users/eduar/Desktop/KaruSampi/resources/cDisease.cpp" "C:/Users/eduar/Desktop/KaruSampi/cmake-build-debug/CMakeFiles/KaruSampi.dir/resources/cDisease.cpp.obj"
   "C:/Users/eduar/Desktop/KaruSampi/resources/cDoctor.cpp" "C:/Users/eduar/Desktop/KaruSampi/cmake-build-debug/CMakeFiles/KaruSampi.dir/resources/cDoctor.cpp.obj"
+  "C:/Users/eduar/Desktop/KaruSampi/resources/cMedicine.cpp" "C:/Users/eduar/Desktop/KaruSampi/cmake-build-debug/CMakeFiles/KaruSampi.dir/resources/cMedicine.cpp.obj"
   "C:/Users/eduar/Desktop/KaruSampi/resources/cPatient.cpp" "C:/Users/eduar/Desktop/KaruSampi/cmake-build-debug/CMakeFiles/KaruSampi.dir/resources/cPatient.cpp.obj"
+  "C:/Users/eduar/Desktop/KaruSampi/resources/cReport.cpp" "C:/Users/eduar/Desktop/KaruSampi/cmake-build-debug/CMakeFiles/KaruSampi.dir/resources/cReport.cpp.obj"
   "C:/Users/eduar/Desktop/KaruSampi/resources/cSymptom.cpp" "C:/Users/eduar/Desktop/KaruSampi/cmake-build-debug/CMakeFiles/KaruSampi.dir/resources/cSymptom.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

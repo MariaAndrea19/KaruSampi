@@ -134,23 +134,23 @@ CMakeFiles\KaruSampi.dir\resources\cPatient.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KaruSampi.dir\resources\cPatient.cpp.s /c C:\Users\eduar\Desktop\KaruSampi\resources\cPatient.cpp
 <<
 
-CMakeFiles\KaruSampi.dir\cReport.cpp.obj: CMakeFiles\KaruSampi.dir\flags.make
-CMakeFiles\KaruSampi.dir\cReport.cpp.obj: ..\cReport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eduar\Desktop\KaruSampi\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/KaruSampi.dir/cReport.cpp.obj"
+CMakeFiles\KaruSampi.dir\resources\cReport.cpp.obj: CMakeFiles\KaruSampi.dir\flags.make
+CMakeFiles\KaruSampi.dir\resources\cReport.cpp.obj: ..\resources\cReport.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eduar\Desktop\KaruSampi\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/KaruSampi.dir/resources/cReport.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KaruSampi.dir\cReport.cpp.obj /FdCMakeFiles\KaruSampi.dir\ /FS -c C:\Users\eduar\Desktop\KaruSampi\cReport.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KaruSampi.dir\resources\cReport.cpp.obj /FdCMakeFiles\KaruSampi.dir\ /FS -c C:\Users\eduar\Desktop\KaruSampi\resources\cReport.cpp
 <<
 
-CMakeFiles\KaruSampi.dir\cReport.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KaruSampi.dir/cReport.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\KaruSampi.dir\cReport.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\eduar\Desktop\KaruSampi\cReport.cpp
+CMakeFiles\KaruSampi.dir\resources\cReport.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KaruSampi.dir/resources/cReport.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\KaruSampi.dir\resources\cReport.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\eduar\Desktop\KaruSampi\resources\cReport.cpp
 <<
 
-CMakeFiles\KaruSampi.dir\cReport.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KaruSampi.dir/cReport.cpp.s"
+CMakeFiles\KaruSampi.dir\resources\cReport.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KaruSampi.dir/resources/cReport.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KaruSampi.dir\cReport.cpp.s /c C:\Users\eduar\Desktop\KaruSampi\cReport.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KaruSampi.dir\resources\cReport.cpp.s /c C:\Users\eduar\Desktop\KaruSampi\resources\cReport.cpp
 <<
 
 CMakeFiles\KaruSampi.dir\resources\cDoctor.cpp.obj: CMakeFiles\KaruSampi.dir\flags.make
@@ -172,14 +172,34 @@ CMakeFiles\KaruSampi.dir\resources\cDoctor.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KaruSampi.dir\resources\cDoctor.cpp.s /c C:\Users\eduar\Desktop\KaruSampi\resources\cDoctor.cpp
 <<
 
+CMakeFiles\KaruSampi.dir\resources\cMedicine.cpp.obj: CMakeFiles\KaruSampi.dir\flags.make
+CMakeFiles\KaruSampi.dir\resources\cMedicine.cpp.obj: ..\resources\cMedicine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eduar\Desktop\KaruSampi\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/KaruSampi.dir/resources/cMedicine.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KaruSampi.dir\resources\cMedicine.cpp.obj /FdCMakeFiles\KaruSampi.dir\ /FS -c C:\Users\eduar\Desktop\KaruSampi\resources\cMedicine.cpp
+<<
+
+CMakeFiles\KaruSampi.dir\resources\cMedicine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KaruSampi.dir/resources/cMedicine.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\KaruSampi.dir\resources\cMedicine.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\eduar\Desktop\KaruSampi\resources\cMedicine.cpp
+<<
+
+CMakeFiles\KaruSampi.dir\resources\cMedicine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KaruSampi.dir/resources/cMedicine.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KaruSampi.dir\resources\cMedicine.cpp.s /c C:\Users\eduar\Desktop\KaruSampi\resources\cMedicine.cpp
+<<
+
 # Object files for target KaruSampi
 KaruSampi_OBJECTS = \
 "CMakeFiles\KaruSampi.dir\main.cpp.obj" \
 "CMakeFiles\KaruSampi.dir\resources\cSymptom.cpp.obj" \
 "CMakeFiles\KaruSampi.dir\resources\cDisease.cpp.obj" \
 "CMakeFiles\KaruSampi.dir\resources\cPatient.cpp.obj" \
-"CMakeFiles\KaruSampi.dir\cReport.cpp.obj" \
-"CMakeFiles\KaruSampi.dir\resources\cDoctor.cpp.obj"
+"CMakeFiles\KaruSampi.dir\resources\cReport.cpp.obj" \
+"CMakeFiles\KaruSampi.dir\resources\cDoctor.cpp.obj" \
+"CMakeFiles\KaruSampi.dir\resources\cMedicine.cpp.obj"
 
 # External object files for target KaruSampi
 KaruSampi_EXTERNAL_OBJECTS =
@@ -188,11 +208,12 @@ KaruSampi.exe: CMakeFiles\KaruSampi.dir\main.cpp.obj
 KaruSampi.exe: CMakeFiles\KaruSampi.dir\resources\cSymptom.cpp.obj
 KaruSampi.exe: CMakeFiles\KaruSampi.dir\resources\cDisease.cpp.obj
 KaruSampi.exe: CMakeFiles\KaruSampi.dir\resources\cPatient.cpp.obj
-KaruSampi.exe: CMakeFiles\KaruSampi.dir\cReport.cpp.obj
+KaruSampi.exe: CMakeFiles\KaruSampi.dir\resources\cReport.cpp.obj
 KaruSampi.exe: CMakeFiles\KaruSampi.dir\resources\cDoctor.cpp.obj
+KaruSampi.exe: CMakeFiles\KaruSampi.dir\resources\cMedicine.cpp.obj
 KaruSampi.exe: CMakeFiles\KaruSampi.dir\build.make
 KaruSampi.exe: CMakeFiles\KaruSampi.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\eduar\Desktop\KaruSampi\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable KaruSampi.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\eduar\Desktop\KaruSampi\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable KaruSampi.exe"
 	"C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\KaruSampi.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\KaruSampi.dir\objects1.rsp @<<
  /out:KaruSampi.exe /implib:KaruSampi.lib /pdb:C:\Users\eduar\Desktop\KaruSampi\cmake-build-debug\KaruSampi.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
