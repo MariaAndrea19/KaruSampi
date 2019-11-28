@@ -124,32 +124,32 @@ KaruSampi\fast:
 	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\build
 .PHONY : KaruSampi\fast
 
-diagnosticAlgoritm.obj: diagnosticAlgoritm.cpp.obj
+diagnosticAlgorithm.obj: diagnosticAlgorithm.cpp.obj
 
-.PHONY : diagnosticAlgoritm.obj
+.PHONY : diagnosticAlgorithm.obj
 
 # target to build an object file
-diagnosticAlgoritm.cpp.obj:
-	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\diagnosticAlgoritm.cpp.obj
-.PHONY : diagnosticAlgoritm.cpp.obj
+diagnosticAlgorithm.cpp.obj:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\diagnosticAlgorithm.cpp.obj
+.PHONY : diagnosticAlgorithm.cpp.obj
 
-diagnosticAlgoritm.i: diagnosticAlgoritm.cpp.i
+diagnosticAlgorithm.i: diagnosticAlgorithm.cpp.i
 
-.PHONY : diagnosticAlgoritm.i
+.PHONY : diagnosticAlgorithm.i
 
 # target to preprocess a source file
-diagnosticAlgoritm.cpp.i:
-	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\diagnosticAlgoritm.cpp.i
-.PHONY : diagnosticAlgoritm.cpp.i
+diagnosticAlgorithm.cpp.i:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\diagnosticAlgorithm.cpp.i
+.PHONY : diagnosticAlgorithm.cpp.i
 
-diagnosticAlgoritm.s: diagnosticAlgoritm.cpp.s
+diagnosticAlgorithm.s: diagnosticAlgorithm.cpp.s
 
-.PHONY : diagnosticAlgoritm.s
+.PHONY : diagnosticAlgorithm.s
 
 # target to generate assembly for a file
-diagnosticAlgoritm.cpp.s:
-	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\diagnosticAlgoritm.cpp.s
-.PHONY : diagnosticAlgoritm.cpp.s
+diagnosticAlgorithm.cpp.s:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\diagnosticAlgorithm.cpp.s
+.PHONY : diagnosticAlgorithm.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -349,9 +349,9 @@ help:
 	@echo ... edit_cache
 	@echo ... KaruSampi
 	@echo ... rebuild_cache
-	@echo ... diagnosticAlgoritm.obj
-	@echo ... diagnosticAlgoritm.i
-	@echo ... diagnosticAlgoritm.s
+	@echo ... diagnosticAlgorithm.obj
+	@echo ... diagnosticAlgorithm.i
+	@echo ... diagnosticAlgorithm.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

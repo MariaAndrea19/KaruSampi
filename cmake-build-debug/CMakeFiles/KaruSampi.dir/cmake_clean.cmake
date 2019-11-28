@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/KaruSampi.dir/diagnosticAlgoritm.cpp.obj"
+  "CMakeFiles/KaruSampi.dir/diagnosticAlgorithm.cpp.obj"
   "CMakeFiles/KaruSampi.dir/main.cpp.obj"
   "CMakeFiles/KaruSampi.dir/resources/cDisease.cpp.obj"
   "CMakeFiles/KaruSampi.dir/resources/cDoctor.cpp.obj"

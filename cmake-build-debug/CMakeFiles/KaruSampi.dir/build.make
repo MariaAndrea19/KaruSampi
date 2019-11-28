@@ -191,23 +191,23 @@ CMakeFiles\KaruSampi.dir\resources\cMedicine.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KaruSampi.dir\resources\cMedicine.cpp.s /c C:\Users\eduar\Desktop\KaruSampi\resources\cMedicine.cpp
 <<
 
-CMakeFiles\KaruSampi.dir\diagnosticAlgoritm.cpp.obj: CMakeFiles\KaruSampi.dir\flags.make
-CMakeFiles\KaruSampi.dir\diagnosticAlgoritm.cpp.obj: ..\diagnosticAlgoritm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eduar\Desktop\KaruSampi\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/KaruSampi.dir/diagnosticAlgoritm.cpp.obj"
+CMakeFiles\KaruSampi.dir\diagnosticAlgorithm.cpp.obj: CMakeFiles\KaruSampi.dir\flags.make
+CMakeFiles\KaruSampi.dir\diagnosticAlgorithm.cpp.obj: ..\diagnosticAlgorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\eduar\Desktop\KaruSampi\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/KaruSampi.dir/diagnosticAlgorithm.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KaruSampi.dir\diagnosticAlgoritm.cpp.obj /FdCMakeFiles\KaruSampi.dir\ /FS -c C:\Users\eduar\Desktop\KaruSampi\diagnosticAlgoritm.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\KaruSampi.dir\diagnosticAlgorithm.cpp.obj /FdCMakeFiles\KaruSampi.dir\ /FS -c C:\Users\eduar\Desktop\KaruSampi\diagnosticAlgorithm.cpp
 <<
 
-CMakeFiles\KaruSampi.dir\diagnosticAlgoritm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KaruSampi.dir/diagnosticAlgoritm.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\KaruSampi.dir\diagnosticAlgoritm.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\eduar\Desktop\KaruSampi\diagnosticAlgoritm.cpp
+CMakeFiles\KaruSampi.dir\diagnosticAlgorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/KaruSampi.dir/diagnosticAlgorithm.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe > CMakeFiles\KaruSampi.dir\diagnosticAlgorithm.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\eduar\Desktop\KaruSampi\diagnosticAlgorithm.cpp
 <<
 
-CMakeFiles\KaruSampi.dir\diagnosticAlgoritm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KaruSampi.dir/diagnosticAlgoritm.cpp.s"
+CMakeFiles\KaruSampi.dir\diagnosticAlgorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/KaruSampi.dir/diagnosticAlgorithm.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1423~1.281\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KaruSampi.dir\diagnosticAlgoritm.cpp.s /c C:\Users\eduar\Desktop\KaruSampi\diagnosticAlgoritm.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\KaruSampi.dir\diagnosticAlgorithm.cpp.s /c C:\Users\eduar\Desktop\KaruSampi\diagnosticAlgorithm.cpp
 <<
 
 # Object files for target KaruSampi
@@ -219,7 +219,7 @@ KaruSampi_OBJECTS = \
 "CMakeFiles\KaruSampi.dir\resources\cReport.cpp.obj" \
 "CMakeFiles\KaruSampi.dir\resources\cDoctor.cpp.obj" \
 "CMakeFiles\KaruSampi.dir\resources\cMedicine.cpp.obj" \
-"CMakeFiles\KaruSampi.dir\diagnosticAlgoritm.cpp.obj"
+"CMakeFiles\KaruSampi.dir\diagnosticAlgorithm.cpp.obj"
 
 # External object files for target KaruSampi
 KaruSampi_EXTERNAL_OBJECTS =
@@ -231,7 +231,7 @@ KaruSampi.exe: CMakeFiles\KaruSampi.dir\resources\cPatient.cpp.obj
 KaruSampi.exe: CMakeFiles\KaruSampi.dir\resources\cReport.cpp.obj
 KaruSampi.exe: CMakeFiles\KaruSampi.dir\resources\cDoctor.cpp.obj
 KaruSampi.exe: CMakeFiles\KaruSampi.dir\resources\cMedicine.cpp.obj
-KaruSampi.exe: CMakeFiles\KaruSampi.dir\diagnosticAlgoritm.cpp.obj
+KaruSampi.exe: CMakeFiles\KaruSampi.dir\diagnosticAlgorithm.cpp.obj
 KaruSampi.exe: CMakeFiles\KaruSampi.dir\build.make
 KaruSampi.exe: CMakeFiles\KaruSampi.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\eduar\Desktop\KaruSampi\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable KaruSampi.exe"

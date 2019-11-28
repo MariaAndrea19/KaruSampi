@@ -12,7 +12,7 @@ class cSymptom {
     text_t name;
     state_t presence;
 public:
-    cSymptom(text_t &n, state_t &p): name(n), presence(p) {}
+    cSymptom(const text_t &n, state_t &p): name(n), presence(p) {}
 };
 
 
