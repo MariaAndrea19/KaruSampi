@@ -124,6 +124,33 @@ KaruSampi\fast:
 	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\build
 .PHONY : KaruSampi\fast
 
+cSymptom.obj: cSymptom.cpp.obj
+
+.PHONY : cSymptom.obj
+
+# target to build an object file
+cSymptom.cpp.obj:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\cSymptom.cpp.obj
+.PHONY : cSymptom.cpp.obj
+
+cSymptom.i: cSymptom.cpp.i
+
+.PHONY : cSymptom.i
+
+# target to preprocess a source file
+cSymptom.cpp.i:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\cSymptom.cpp.i
+.PHONY : cSymptom.cpp.i
+
+cSymptom.s: cSymptom.cpp.s
+
+.PHONY : cSymptom.s
+
+# target to generate assembly for a file
+cSymptom.cpp.s:
+	$(MAKE) -f CMakeFiles\KaruSampi.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\KaruSampi.dir\cSymptom.cpp.s
+.PHONY : cSymptom.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -160,6 +187,9 @@ help:
 	@echo ... edit_cache
 	@echo ... KaruSampi
 	@echo ... rebuild_cache
+	@echo ... cSymptom.obj
+	@echo ... cSymptom.i
+	@echo ... cSymptom.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

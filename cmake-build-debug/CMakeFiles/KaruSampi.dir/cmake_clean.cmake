@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/KaruSampi.dir/cSymptom.cpp.obj"
   "CMakeFiles/KaruSampi.dir/main.cpp.obj"
   "KaruSampi.exe"
   "KaruSampi.exe.manifest"

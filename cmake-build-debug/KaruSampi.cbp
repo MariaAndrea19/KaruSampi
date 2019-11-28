@@ -82,7 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/cmake-build-debug/cSymptom.cpp">
+			<Option target="KaruSampi"/>
+		</Unit>
+		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/cmake-build-debug/cSymptom.h">
+			<Option target="KaruSampi"/>
+		</Unit>
 		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/main.cpp">
+			<Option target="KaruSampi"/>
+		</Unit>
+		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/types.h">
 			<Option target="KaruSampi"/>
 		</Unit>
 		<Unit filename="C:/Users/eduar/Desktop/KaruSampi/CMakeLists.txt">
